@@ -12,4 +12,19 @@ $darkblue: #518BDE;
     display: grid;
     grid-template-rows: repeat(4, 1minmax(200px, 1fr));
     grid-template-columns: repeat(11, minmax(150px, 1fr));
+
+    &__title {
+        grid-row: 1/2;
+        grid-column: 1/3;
+
+        justify-self: center;
+
+        font-size: 18px;
+        color: white;
+        font-family: 'Montserrat';
+        font-weight: 300px;
+        line-height: 22px;
+        padding-top: 55px;
+        padding-left: 75px;
+    }
 }
