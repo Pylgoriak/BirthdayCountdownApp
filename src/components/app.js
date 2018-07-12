@@ -18,9 +18,13 @@ export default class App extends Component {
     if (this.state.active) {
       return [
         <Clock/>,
+        Button('Change Date', 'changeDate', true, () => this.setState({ active: false }))
       ]
     } else {
-      return Button('Generate Button', () => this.setState({ active: true }));
+      return [
+        Button('Generate Clock', 'generate', false, () => this.setState({ active: true })),
+        <Picker/>,
+      ]
     }
   }.bind(this)
 
@@ -37,7 +41,6 @@ export default class App extends Component {
         <div className="grid__skew-light-two"></div>
         <div className="grid__skew-light-three-box"></div>
 
-        <Picker/>
         { this.renderItems() }
       </div>
     );
