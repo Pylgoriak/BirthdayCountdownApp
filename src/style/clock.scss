@@ -3,8 +3,40 @@
     grid-column: 2/11;
 
     background-color: $gray;
-    height: 80%;
+    height: 75%;
+    width: 100%;
     align-self: end;
     -webkit-clip-path: $button-skew;
     clip-path: $button-skew;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 275px));
+    grid-column-gap: 20px;
+
+    align-items: center;
+    justify-items: center;
+    text-align: left;
+    justify-content: center;
+    align-content: center;
+
+    &__box {
+        margin-top: 24px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title {
+       font-size: 22px;
+       line-height: 25px;
+       color: $yellow;
+       font-family: 'Roboto Condensed';
+    }
+
+    &__amount {
+        font-size: 90px;
+        font-weight: bold;
+        line-height: 115px;
+        color: white;
+        font-family: 'Roboto Condensed';
+    }
 }
