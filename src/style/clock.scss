@@ -1,0 +1,10 @@
+.clock {
+    grid-row: 3/4;
+    grid-column: 2/11;
+
+    background-color: $gray;
+    height: 80%;
+    align-self: end;
+    -webkit-clip-path: $button-skew;
+    clip-path: $button-skew;
+}

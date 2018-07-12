@@ -1,6 +1,6 @@
 .button {
     grid-row: 3/4;
-    grid-column: 5/10;
+    grid-column: 6/9;
     justify-self: center;
 
     height: 50px;
@@ -10,7 +10,8 @@
     border: none;
     color: white;
 
-    clip-path: polygon(7% 0, 100% 0, 93% 100%, 0% 100%);
+    -webkit-clip-path: $button-skew;
+    clip-path: $button-skew;
 
     font-family: 'Montserrat';
     font-size: 18px;
