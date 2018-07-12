@@ -3,7 +3,7 @@
 .grid {
     &__skew-light-one {
         -webkit-clip-path: polygon(0 0, 0% 100%, 100% 100%);
-clip-path: polygon(0 0, 0% 100%, 100% 100%);
+        clip-path: polygon(0 0, 0% 100%, 100% 100%);
         background-color: $lightblue;
 
         grid-column: 1/2;

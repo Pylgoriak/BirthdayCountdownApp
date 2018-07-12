@@ -10,10 +10,9 @@ $yellow: #F7D754;
 $button-skew: polygon(7% 0, 100% 0, 93% 100%, 0% 100%);
 
 // Grid Elements
-
 .grid {
     display: grid;
-    grid-template-rows: repeat(4, 1minmax(200px, 1fr));
+    grid-template-rows: repeat(4, 1fr);
     grid-template-columns: repeat(9, minmax(150px, 1fr));
     height: 100vh;
     width: 100vw;

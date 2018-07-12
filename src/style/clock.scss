@@ -5,19 +5,20 @@
     background-color: $gray;
     height: 75%;
     width: 100%;
-    align-self: end;
+
     -webkit-clip-path: $button-skew;
     clip-path: $button-skew;
 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 275px));
-    grid-column-gap: 20px;
+    grid-column-gap: 60px;
 
     align-items: center;
     justify-items: center;
     text-align: left;
     justify-content: center;
     align-content: center;
+    align-self: end;
 
     &__box {
         margin-top: 24px;
