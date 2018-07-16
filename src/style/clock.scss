@@ -1,9 +1,9 @@
 .clock {
     grid-row: 3/4;
-    grid-column: 2/11;
+    grid-column: 2/10;
 
     background-color: $grayOne;
-    height: 75%;
+    height: 80%;
     width: 100%;
 
     -webkit-clip-path: $button-skew;
@@ -11,7 +11,7 @@
 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 275px));
-    grid-column-gap: 60px;
+    grid-column-gap: 10px;
 
     align-items: center;
     justify-items: center;
