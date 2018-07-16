@@ -1,6 +1,7 @@
 .picker {
     grid-column: 5/10;
     grid-row: 2/3;
+    align-self: end;
 
     padding-bottom: 50px;
 
@@ -13,9 +14,9 @@
         justify-self: center;
 
         font-size: 80px;
-        font-family: 'Roboto Condensed';
+        font-family: $fontRoboto;
         font-weight: bold;
-        color: $gray;
+        color: $grayOne;
 
         &:focus {
             outline: none;

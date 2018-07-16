@@ -2,9 +2,13 @@
 
 $lightblue: #5496E6;
 $darkblue: #518BDE;
-$gray: #444;
+$grayOne: #444;
+$grayTwo: #E6E6E6;
 $gold: #E3B924;
 $yellow: #F7D754;
+
+$fontRoboto: 'Roboto Condensed';
+$fontMont: 'Montserrat';
 
 
 $button-skew: polygon(7% 0, 100% 0, 93% 100%, 0% 100%);
@@ -25,10 +29,24 @@ $button-skew: polygon(7% 0, 100% 0, 93% 100%, 0% 100%);
 
         font-size: 18px;
         color: white;
-        font-family: 'Montserrat';
+        font-family: $fontMont;
         font-weight: 300px;
         line-height: 22px;
         padding-top: 55px;
         padding-left: 75px;
+    }
+
+    &__remaining {
+        grid-row: 4/5;
+        grid-column: 1/-1;
+
+        text-align: center;
+        margin-top: 33px;
+
+        color: $grayOne;
+        font-family: $fontMont;
+        font-size: 22px;
+        font-weight: 300px;
+        line-height: 27px;
     }
 }

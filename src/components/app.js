@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Picker from './picker';
 import Button from './button';
 import Clock from './clock';
+import date from './date';
 
 export default class App extends Component {
 
@@ -18,7 +19,9 @@ export default class App extends Component {
     if (this.state.active) {
       return [
         <Clock/>,
-        Button('Change Date', 'changeDate', true, () => this.setState({ active: false }))
+        Button('Change Date', 'changeDate', true, () => this.setState({ active: false })),
+        date('04/03'),
+        <label className="grid__remaining">Remaining until your 15th birthday</label>
       ]
     } else {
       return [

@@ -6,12 +6,17 @@ button {
     &:hover {
         cursor: pointer;
     }
+
+    &:focus {
+        outline: none;
+    }
 }
 
 .generate {
     grid-row: 3/4;
     grid-column: 6/9;
     justify-self: center;
+    margin-right: 120px;
 
     height: 50px;
     width: 350px;
@@ -23,7 +28,7 @@ button {
     -webkit-clip-path: $button-skew;
     clip-path: $button-skew;
 
-    font-family: 'Montserrat';
+    font-family: $fontMont;
     font-size: 18px;
     line-height: 22px;
 
@@ -39,7 +44,7 @@ button {
     line-height: 19px;
     text-align: center;
     color: white;
-    font-family: 'Roboto Condensed';
+    font-family: $fontRoboto;
     font-weight: 100;
 
     background-color: transparent;
