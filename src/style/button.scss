@@ -37,7 +37,7 @@ button {
 
 .changeDate {
     grid-row: 2/3;
-    grid-column: 4/5;
+    grid-column: 4/6;
     justify-self: start;
 
     font-size: 24px;
@@ -47,12 +47,12 @@ button {
     font-family: $fontRoboto;
     font-weight: 100;
 
-    width: 200%;
+    // width: 200%;
 
     background-color: transparent;
     border: none;
 
-    transform: rotate(-73deg) translate(-140px, -140px);
+    transform: rotate(-73.25deg) translate(0px, -70px);
 
     i {
         margin-right: 20px;

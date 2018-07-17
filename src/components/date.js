@@ -1,11 +1,11 @@
 import React from 'react';
 
-const date = (text) => {
+const birthdate = (text) => {
     return (
-      <div className="date">
+      <div key={2}className="date">
         {text}
       </div>
   )
 }
 
-export default date;
+export default birthdate;
